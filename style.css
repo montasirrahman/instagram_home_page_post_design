@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.post {
+    width: 600px;
+    background-color: #fff;
+    max-width: 100%;
+    margin: 12px auto 0 auto;
+    display: block;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+.top_row {
+    padding: 5px 14px;
+}
+.bottom_row {
+    padding: 14px;
+}
+.like_row {
+    padding: 5px 16px ;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_text {
+    width: calc(100% - 80px);
+}
+/*small img
+#cont{
+    background: -webkit-linear-gradient(left top, #ffd1dc 0%, #ff7606 100%);
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+    padding: 3px;
+  }
+  
+  #box{
+    background: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+  }
+  */
+/* images */
+.small_img {
+    border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
+    width: 32px;
+    height: 32px;
+}
+.big_img {
+    width: 100%;
+    margin: 0;
+}
+.top_big_text {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: .4;
+}
+.top_small_text {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: .4;
+    color: #8e8e8e;
+}
+.title {
+    color: #444;
+    font-weight: 500;
+    display: inline;
+}
+.discription {
+    color: #8e8e8e;
+    font-weight: 400;
+    display: inline;
+}
+.row.icon-width {
+    width: 130px;
+}
+/*icon*/
+.icon_size i {
+    font-size: 28px;
+    cursor: pointer;
+}
+.icon_size i:active {
+    color: #ff0083;
+}
+.icon_size i:hover {
+    color: #838383;
+}
+@media only screen and (max-width: 600px) {
+    .big_img {
+        width: calc(100% + 2px);
+        margin: 0 0 0 -1px;
+    }
+  }
